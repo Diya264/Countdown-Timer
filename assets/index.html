@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--main container for the countdown timer-->
+    <div class="countdown-container">
+        <h1 class="title">Countdown Timer</h1>
+         <!--container for the date and time input-->
+        <div class="input-container">
+            <label for="date">Select Date and Time:</label>
+            <input type="datetime-local" id="date" name="date">
+            <button id="startBtn">Start</button> <!--button to start the countdown-->
+        </div>
+        <!--container for displaying the countdown timer-->
+        <div id="countdown" class="countdown-timer">
+            <div class="time-box"> <!--each time-box represents a section for days, hours, minutes, and seconds-->
+                <!--span to display the number of hours-->
+                <span class="time" id="days">00</span>
+                <span class="label">DAYS</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="time-box">
+                <!--span to display the number of hours-->
+                <span class="time" id="hours">00</span>
+                <span class="label">HRS</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="time-box">
+                <!--span to display the number of minutes-->
+                <span class="time" id="minutes">00</span>
+                <span class="label">MIN</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="time-box">
+                <!--span to display the number of seconds-->
+                <span class="time" id="seconds">00</span>
+                <span class="label">SEC</span>
+            </div>
+        </div>
+        <p id="message" class="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
