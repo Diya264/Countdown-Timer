@@ -43,4 +43,4 @@ You can set a target date and time, and the timer will display the remaining **d
 
 ## Screenshot
 
-<img width="1362" height="580" alt="image" src="https://github.com/user-attachments/assets/966bc9fd-dbcb-4073-be69-cc9c66263777" />
+<img width="1350" height="639" alt="image" src="https://github.com/user-attachments/assets/220548dd-3784-4924-8c4a-e27ce2e95149" />
