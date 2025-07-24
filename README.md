@@ -16,9 +16,9 @@ You can set a target date and time, and the timer will display the remaining **d
 ## Project Structure
 
 - Countdown-Timer/
-- ┣ 📄 index.html
-- ┣ 📄 style.css
-- ┗ 📄 script.js
+- ┣ index.html
+- ┣ style.css
+- ┗ script.js
 
 
 ## Technologies Used
